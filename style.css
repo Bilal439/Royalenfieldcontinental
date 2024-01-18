@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     padding: 0;
-    margin: 0; 
-    font-family: sans-serif;  
+    margin: 0;
+    font-family: sans-serif;
 }
 
 .main-continental-head {
     background-color: #080808;
+    padding: 4%;
 }
 
 .continental-sec {
@@ -27,7 +28,7 @@ body{
     color: #F2F2F2;
     padding: 10px 20px;
     border: none;
-    margin: 10px;    
+    margin: 10px;
 }
 
 .bike-name {
@@ -39,7 +40,7 @@ body{
 .bike-model {
     font-size: 150px;
     font-weight: 400;
-    font-family: Righteous;   
+    font-family: Righteous;
 }
 
 .use-loc-here {
@@ -47,7 +48,7 @@ body{
     font-weight: 400;
     margin: 1%;
     text-decoration: underline;
-} 
+}
 
 .bike-side {
     background-image: url(images/engine\ 1.png);
@@ -71,7 +72,6 @@ body{
     background: linear-gradient(180deg, #080808 41.67%, rgba(8, 8, 8, 0.421875) 69.27%, rgba(8, 8, 8, 0) 100%);
     color: #F2F2F2;
     background-color: #080808;
-
 }
 
 .bike-head-img {
@@ -96,27 +96,152 @@ body{
 .tyre-sec {
     display: flex;
     align-items: center;
+    background-color: #080808;
+    padding: 4%;
+}
+
+.tyre-specification {
+    width: 50%;
 }
 
 .tyre-model {
     font-size: 80px;
     font-weight: 400;
-    font-family: Righteous;   
+    font-family: Righteous;
+    color: #F2F2F2;
 }
 
 .wheel-power {
     font-weight: 400;
     font-size: 18px;
+    color: #D9D9D9;
 }
 
-.bike-royal-store {
+.tyre-img {
+    width: 50%;
+}
+
+.img-t {
+    width: 100%;
+}
+
+.bike-royal-sec {
     background-image: url(images/cycleworld\ 1.png);
     height: 346px;
 }
 
-.metero-img {
+.bike-royal-store {
     position: relative;
-    left: 54%;
-    top: 20%;
     background: #00000099;
+    width: 45%;
+    left: 55%;
+    height: 346px;
+}
+
+.booking-btn {
+    position: relative;
+    left: 60%;
+}
+
+.bike-store-side {
+    position: relative;
+    top: 20%;
+}
+
+.mr-bike-sec {
+    text-align: center;
+    width: 100%;
+    background-color: #080808;
+}
+
+.new-bike-color {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: Righteous;
+}
+
+.mr-bike-name {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.clean-bike-img {
+    display: flex;
+    background: linear-gradient(180deg, #080808 41.67%, rgba(8, 8, 8, 0.421875) 69.27%, rgba(8, 8, 8, 0) 100%);
+}
+
+.angles-bike {
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gallery-sec {
+    background-color: #080808;
+}
+
+.gallery-btn-sec {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.gallery-name {
+    color: #F2F2F2;
+    font-size: 80px;
+    font-weight: 400;
+    font-family: Righteous;
+}
+
+.gallery-img-sec {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery-img {
+    width: 33%;
+}
+
+.footer {
+    background-image: url(images/continental-gt-650-motorcycle\ 1.png);
+}
+
+.royal-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    background: #000000CC;
+}
+
+.footer-section {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Righteous;
+    color: #F2F2F2;
+    margin: 2%;
+}
+
+.email-ipt {
+    border: none;
+    outline: none;
+    color: #F2F2F2;
+    background-color: #000000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding:19px 141px 17px 1px;
+}
+
+.last-address {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #000000CC;
+    padding: 1%;
+}
+
+.design-color {
+    color: #F24822;
+    text-decoration: underline;
 }
