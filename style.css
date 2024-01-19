@@ -9,16 +9,26 @@ body {
     font-family: sans-serif;
 }
 
-.main-continental-head {
-    background-color: #080808;
-    padding: 4%;
-}
-
 .continental-sec {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #F2F2F2;
+    background-color: #080808;
+    padding: 4% 0%;
+}
+
+.bike-information {
+    width: 50%;
+    margin: 4%;
+}
+
+.header-img {
+    width: 50%;
+}
+
+.gt-side-img {
+    width: 100%;
 }
 
 .booking-btn {
@@ -29,6 +39,10 @@ body {
     padding: 10px 20px;
     border: none;
     margin: 10px;
+}
+
+.location-use {
+    margin: 2%;
 }
 
 .bike-name {
@@ -54,6 +68,9 @@ body {
     background-image: url(images/engine\ 1.png);
     width: 100%;
     height: 697px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .bike-feature {
@@ -69,17 +86,23 @@ body {
 .head-cafe {
     display: flex;
     align-items: center;
-    background: linear-gradient(180deg, #080808 41.67%, rgba(8, 8, 8, 0.421875) 69.27%, rgba(8, 8, 8, 0) 100%);
     color: #F2F2F2;
     background-color: #080808;
+    width: 100%;
+    padding: 4% 0;
 }
 
 .bike-head-img {
     width: 50%;
 }
 
+.head-light-img {
+    width: 100%;
+}
+
 .bike-head-sec {
     width: 50%;
+    margin: 6%;
 }
 
 .bike-cafe {
@@ -97,11 +120,12 @@ body {
     display: flex;
     align-items: center;
     background-color: #080808;
-    padding: 4%;
+    padding: 4% 0%;
 }
 
 .tyre-specification {
     width: 50%;
+    margin: 4%;
 }
 
 .tyre-model {
@@ -121,26 +145,33 @@ body {
     width: 50%;
 }
 
-.img-t {
+.img-cast-alloy {
     width: 100%;
 }
 
 .bike-royal-sec {
     background-image: url(images/cycleworld\ 1.png);
     height: 346px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
 }
 
 .bike-royal-store {
     position: relative;
     background: #00000099;
-    width: 45%;
-    left: 55%;
+    width: 50%;
+    left: 50%;
     height: 346px;
 }
 
-.booking-btn {
-    position: relative;
-    left: 60%;
+.metero-img {
+    width: 100%;
+}
+
+.shop-btn {
+    text-align: center;
 }
 
 .bike-store-side {
@@ -158,30 +189,39 @@ body {
     font-size: 80px;
     font-weight: 400;
     font-family: Righteous;
+    color: #F2F2F2;
+    padding: 4% 0;
 }
 
 .mr-bike-name {
     font-size: 50px;
     font-weight: 400;
+    color: #F2F2F2;
+    margin: 1%;
 }
 
 .clean-bike-img {
     display: flex;
     background: linear-gradient(180deg, #080808 41.67%, rgba(8, 8, 8, 0.421875) 69.27%, rgba(8, 8, 8, 0) 100%);
+    padding: 2%;
 }
 
 .angles-bike {
     color: #F2F2F2;
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
+    padding: 1%;
 }
 
 .gallery-sec {
     background-color: #080808;
+    padding: 4% 0;
 }
 
 .gallery-btn-sec {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 2%;
 }
@@ -196,10 +236,13 @@ body {
 .gallery-img-sec {
     flex-wrap: wrap;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-img {
-    width: 33%;
+    width: 30%;
+    margin: 1%;
 }
 
 .footer {
@@ -212,6 +255,18 @@ body {
     align-items: center;
     padding: 1%;
     background: #000000CC;
+}
+
+.footer-left-sd {
+    width: 50%;
+}
+
+.footer-right-sd {
+    width: 50%;
+}
+
+.royal-ft-logo {
+    margin: 6%;
 }
 
 .footer-section {
@@ -230,7 +285,8 @@ body {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    padding:19px 141px 17px 1px;
+    padding: 19px 141px 17px 1px;
+    margin: 1%;
 }
 
 .last-address {
