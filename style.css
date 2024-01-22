@@ -32,8 +32,6 @@ body {
 
 .header-img {
     width: 50%;
-    (background: linear-gradient(to bottom to top, 180deg, #080808 41.67%, rgba(8, 8, 8, 0.421875) 69.27%, rgba(8, 8, 8, 0) 100%);
-    );
 }
 
 .img-wrapper {
