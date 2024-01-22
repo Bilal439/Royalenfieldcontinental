@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    max-width: 1400px;
 }
 
 .main-bikes-meter {
@@ -31,6 +32,11 @@ body {
 
 .header-img {
     width: 50%;
+}
+
+.img-wrapper {
+    width: 80%;
+    height: auto;   
 }
 
 .gt-side-img {
@@ -213,6 +219,16 @@ body {
     align-items: center;
 }
 
+.clean-img1 {
+    width: 25%;
+    height: auto;
+}
+
+.clean-img2 {
+    width: 50%;
+    height: auto;
+}
+
 .angles-bike {
     color: #F2F2F2;
     font-size: 20px;
@@ -308,3 +324,75 @@ body {
     color: #F24822;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+    .gallery-img {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    body {
+        text-align: center;
+    }
+
+    .continental-section {
+        display: block;
+    }
+
+    .header-img {
+        width: 90%;
+        padding: 2%;
+    }
+
+    .head-cafe {
+        display: block;
+    }
+
+    .bike-head-img {
+        width: 90%;
+    }
+
+    .bike-head-section {
+        width: 90%;
+        margin: 2%;
+    }
+
+    .tyre-section {
+        display: block;
+    }
+
+    .tyre-specification {
+        width: 90%;
+        margin: 2%;
+    }
+
+    .tyre-img {
+        width: 100%;
+        padding: 4% 0;
+    }
+
+    .clean-bike-img {
+        display: block;
+    }
+
+    .clean-img1 {
+        width: 50%;
+        height: auto;
+    }
+
+    .clean-img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .royal-footer {
+        display: block;
+    }
+
+    .gallery-img {
+        width: 80%;
+    }
+}
+
