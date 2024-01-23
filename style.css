@@ -8,6 +8,8 @@ body {
     margin: 0;
     font-family: sans-serif;
     max-width: 1400px;
+    margin: 0 auto;
+    background-color: #080808;
 }
 
 .main-bikes-meter {
@@ -35,7 +37,7 @@ body {
 }
 
 .img-wrapper {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -325,9 +327,59 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1121px) {
+    .bike-name {
+        font-size: 50px;
+    }
+
+    .bike-model {
+        font-size: 90px;
+    }
+
+    .bike-cafe {
+        font-size: 50px;
+    }
+
+    .bike-cafe-performance {
+        font-size: 16px;
+    }
+
+    .tyre-model {
+        font-size: 50px;
+    }
+
+    .wheel-power {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .gallery-img {
         width: 48%;
+    }
+
+    .bike-feature {
+        position: unset;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .bike-feature-wrapper {
+        position: relative;
+        top: 50%;
+    }
+
+    .tyre-specification {
+        margin: 2%;
+    }
+
+    .wheel-power {
+        font-size: 15px;
+    }
+
+    .gallery-img-section {
+        gap: 10px;
     }
 }
 
@@ -337,57 +389,132 @@ body {
         text-align: center;
     }
 
-    .continental-section,
-    .head-cafe,
-    .tyre-section,
     .clean-bike-img,
     .royal-footer {
         display: block;
     }
 
+    .main-royal-logo,
+    .bike-information,
+    .bike-head-section,
+    .tyre-specification {
+        margin: 0;
+    }
+
+    .continental-section {
+        background-image: url(images/gallery-4\ 1.png);
+        background-size: cover;
+    }
+
+    .bike-information {
+        width: 100%;
+        background: #00000099;
+        padding: 2%;
+    }
+
+    .bike-feature {
+        font-size: 16px;
+    }
+
     .bike-name {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .bike-model {
-        font-size: 80px;
+        font-size: 60px;
     }
 
-    .header-img {
-        width: 90%;
-        padding: 2%;
+    .header-img,
+    .bike-head-img,
+    .tyre-img {
+        display: none;
     }
 
     .bike-head-img {
         width: 90%;
     }
 
+    .head-cafe {
+        background-image: url(images/led-headlamp\ 1.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bike-cafe {
+        font-size: 40px;
+    }
+
+    .bike-cafe-performance {
+        font-size: 14px;
+    }
+
     .bike-head-section {
-        width: 90%;
-        margin: 2%;
+        width: 100%;
+        background-color: #00000099;
+        padding: 6%;
+    }
+
+    .tyre-section {
+        background-color: #00000099;
     }
 
     .tyre-specification {
-        width: 90%;
-        margin: 2%;
+        background-image: url(images/cast-alloy-wheels\ 1.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding: 2%;
     }
 
-    .tyre-img {
-        width: 100%;
-        padding: 4% 0;
+    .tyre-model,
+    .new-bike-color,
+    .gallery-name {
+        font-size: 40px;
+    }
+
+    .wheel-power {
+        font-size: 14px;
+    }
+
+    .mr-bike-name {
+        font-size: 30px;
+    }
+
+    .angles-bike {
+        font-size: 14px;
+    }
+
+    .gallery-img-section {
+        gap: 6px;
+    }
+
+    .clean-img1,
+    .clean-img2 {
+        height: auto;
+    }
+
+    .footer-left-sd,
+    .footer-right-sd {
+        width: auto;
     }
 
     .clean-img1 {
         width: 50%;
-        height: auto;
     }
 
     .clean-img2 {
         width: 100%;
-        height: auto;
     }
 
     .gallery-img {
-        width: 80%;
+        width: 96%;
+    }
+
+    .royal-ft-logo {
+        margin: 2%;
+    }
+
+    .footer-section {
+        font-size: 22px;
     }
 }
