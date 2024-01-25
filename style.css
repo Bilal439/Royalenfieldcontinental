@@ -11,6 +11,13 @@ body {
     margin: 0 auto;
 }
 
+.main-royal-logo,
+.booking-btn,
+.location-use,
+.royal-ft-logo {
+    cursor: pointer;
+}
+
 body,
 .main-bikes-meter,
 .head-cafe,
@@ -496,7 +503,11 @@ body,
         width: 50%;
     }
 
-    .clean-img2 {
+    .bike-royal-store  {
+        left: 0;
+    }
+
+    .clean-img2,.bike-royal-store  {
         width: 100%;
     }
 
