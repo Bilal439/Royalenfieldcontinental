@@ -14,7 +14,10 @@ body {
 .main-royal-logo,
 .booking-btn,
 .location-use,
-.royal-ft-logo {
+.royal-ft-logo,
+.fa-less-than,
+.fa-greater-than,
+.last-address {
     cursor: pointer;
 }
 
