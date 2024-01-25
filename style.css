@@ -456,7 +456,8 @@ body,
 
     .header-img,
     .bike-head-img,
-    .tyre-img {
+    .tyre-img,
+    .icon-angles-curve {
         display: none;
     }
 
